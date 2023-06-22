@@ -18,6 +18,16 @@ let result = numbers.filter(numbers => {
 });
 console.log(result);
 
+let nums = [1,2,3,-1,-2,-3];
+let num = [];
+
+for (let i = 0; i < nums.length ; i++){
+    if ( nums[i] > 0 ){
+        num.push(nums[i]) 
+    }
+}
+console.log(num)
+
 // remove duplicate elements from an array:
 
 let arr = [1, 2, 2, 3, 1 ];
